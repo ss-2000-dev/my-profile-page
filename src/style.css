@@ -49,10 +49,15 @@ img {
   margin: auto;
 }
 
+.my-skills {
+  margin-bottom: 50px;
+}
+
 div.image_circle {
   width: 200px;
   height:200px;
   border-radius:50%;
+  border: solid 4px black;
   background-position: 50% 40%;
   background-image: url("/src/photo/my-photo-1.jpg");
 }
