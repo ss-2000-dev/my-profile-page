@@ -10,10 +10,10 @@ hr {
   margin: 100px auto;
 }
 
-img {
+/* img {
   object-fit: cover;
   max-width: 200px;
-}
+} */
 
 .top-container {
   padding-top: 100px;
@@ -28,7 +28,7 @@ img {
 
 .bottom-container {
   background-color: black;
-  padding: 50px 0 20px;
+  padding: 20px 0 40px;
 }
 
 .title-text {
@@ -49,7 +49,7 @@ img {
   margin: auto;
 }
 
-.my-skills {
+.section {
   margin-bottom: 50px;
 }
 
@@ -60,6 +60,28 @@ div.image_circle {
   border: solid 4px black;
   background-position: 50% 40%;
   background-image: url("/src/photo/my-photo-1.jpg");
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, auto); 
+  grid-row: auto auto;
+  grid-gap: 50px;
+}
+
+.grid-learning-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, auto);
+  grid-row: auto auto;
+  grid-gap: 50px;
+}
+
+.grid-item {
+  object-fit: cover;
+  max-width: 200px;
 }
 
 .footer-link {
